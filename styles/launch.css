@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:400,500,600,700&display=swap');
+body {
+    font-family: 'Inter';
+}
+
+main {
+    grid-column: 1 / 13;
+    height: 90vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    background: url(../assets/images/launch/spacex-t3HVjP4xNsg-unsplash@2x.png);
+    background-size: 100% 100%;
+}
+
+section {
+    grid-column: 1 / 13;
+    height: 100vh;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.launch-main-content {
+    text-align: center;
+}
+
+.launch-main-content h2 {
+    font-size: 32px;
+    margin-top: 50px;
+    color: #5ef2f2;
+}
+
+.launch-main-content p {
+    font-size: 21px;
+    margin: 0;
+}
+
+.book-launch-info {
+    border: 2px solid #5ef2f2;
+    margin: 100px 75px;
+    padding: 30px;
+    height: 350px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.book-launch-info:hover {
+    background-color: #262626;
+}
+
+.book-launch-info h3 span {
+    font-weight: 700;
+    color: #5ef2f2;
+}
+
+.book-launch-info p {
+    font-weight: 600;
+}
+
+.book-launch-info .descript-title {
+    margin: 20px 0 0 40px;
+}
+
+.book-launch-info .descript-info {
+    font-weight: 500;
+    margin: 0 0 0 60px;
+    color: #CCCCCC;
+}
+
+.vertical-line {
+    /* margin-top: 150px; */
+    padding: 0;
+    height: 325px;
+    border-left: 0.5px solid #5ef2f2;
+}

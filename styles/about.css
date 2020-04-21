@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:400,500,600,700&display=swap');
+body {
+    font-family: 'Inter';
+}
+
+main {
+    grid-column: 1 / 13;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    background: url(../assets/images/about/felipe-simo-gh2x8Ie1OWg-unsplash@2x.png);
+    background-size: 100% 100%;
+}
+
+.about-main-text-wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 0 auto;
+}
+
+.about-main-text-container {
+    margin-top: 210px;
+    margin-left: 45px;
+    grid-column: 3 / 7;
+}
+
+.about-main-text-container h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #5ef2f2;
+    margin: 0 0 15px 0;
+}
+
+.about-main-text-container p {
+    font-size: 21px;
+    font-weight: 500;
+    margin: 0;
+    line-height: 25px;
+}
+
+#company-values {
+    grid-column: 1 / 13;
+    /* Grid Parent Properties */
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    justify-items: center;
+}
+
+#company-values h2 {
+    grid-column: 1 / 13;
+    margin: 80px 0 40px 0;
+}
+
+#company-values .value-1 {
+    grid-column: 2 / 7;
+    height: 160px;
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+#company-values .value-2 {
+    grid-column: 7 / 12;
+    height: 160px;
+    width: 500px;
+}
+
+#company-values .value-1 h3 {
+    font-size: 21px;
+    font-weight: 700;
+    color: #5ef2f2;
+}
+
+#company-values .value-2 h3 {
+    font-size: 21px;
+    font-weight: 700;
+    color: #5ef2f2;
+}
+
+#directors {
+    grid-column: 1 / 13;
+    /* Grid Parent Properties */
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 0 auto;
+}
+
+#directors h2 {
+    margin: 80px 0 50px 0;
+    grid-column: 1 / 13;
+    text-align: center;
+}
+
+#directors .board-member-left {
+    grid-column: 2/ 6;
+}
+
+#directors .board-member-left img {
+    max-height: 500px;
+    max-width: 400px;
+}
+
+#directors .board-member-left h4 {
+    margin: 10px 0 5px 0;
+    color: #5ef2f2;
+}
+
+#directors .board-member-left p {
+    margin: 5px 0 50px 0;
+}
+
+#directors .board-member-right {
+    grid-column: 8 / 12;
+}
+
+#directors .board-member-right img {
+    max-height: 500px;
+    max-width: 400px;
+}
+
+#directors .board-member-right h4 {
+    margin: 10px 0 5px 0;
+    color: #5ef2f2;
+}
+
+#directors .board-member-right p {
+    margin: 5px 0 100px 0;
+}

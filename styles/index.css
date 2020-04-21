@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:400,500,600,700&display=swap');
+body {
+    font-family: 'Inter';
+}
+
+main {
+    grid-column: 1 / 13;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.home-main-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-main-text {
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom: 250px;
+}
+
+main .home-main-text h1 {
+    color: #5ef2f2;
+}
+
+main .home-main-text p {
+    line-height: 25px;
+    margin-left: 20px;
+}
+
+main .home-main-text a {
+    float: right;
+    padding: 14px 30px;
+    border: 2px solid #5ef2f2;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+main .home-main-text a:hover {
+    color: #000000;
+    background-color: #5ef2f2;
+}
+
+.home-main-image-wrapper {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+main img {
+    max-height: 550px;
+    max-width: 550px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+}
+
+section {
+    grid-column: 1 / 13;
+    height: 80vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.sub-orbital-flight-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-orbital-flight-image-wrapper img {
+    max-height: 450px;
+    max-width: 450px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+
+.sub-orbital-flight-text-wrapper {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.sub-orbital-flight-text {
+    margin-right: 100px;
+    margin-bottom: 250px;
+}
+
+.sub-orbital-flight-text h2 {
+    color: #5ef2f2;
+}
+
+.sub-orbital-flight-text p {
+    color: #CCCCCC;
+    line-height: 25px;
+}
+
+/* // */
+
+.satellite-deploy-image-wrapper {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.satellite-deploy-image-wrapper img {
+    max-height: 450px;
+    max-width: 450px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+
+.satellite-deploy-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.satellite-deploy-text {
+    margin-left: 100px;
+    margin-bottom: 250px;
+}
+
+.satellite-deploy-text h2 {
+    color: #5ef2f2;
+}
+
+.satellite-deploy-text p {
+    color: #CCCCCC;
+    line-height: 25px;
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:400,500,600,700&display=swap');
+* {
+  font-family: 'Inter';
+  color: #ffffff;
+}
+
+header {
+  grid-column: 1 / 13;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.space-pioneer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2 / 4;
+}
+
+.space-pioneer-logo h1 {
+  font-size: 28px;
+}
+
+.navigation-items {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  list-style-type: none;
+  grid-column: 4 / 7;
+}
+
+.navigation-items li {
+  display: inline;
+}
+
+.navigation-items li a {
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigation-items li a:hover {
+  border-bottom: 3px solid #5ef2f2;
+}
+
+.book-launch-cta-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 10 / 12;
+}
+
+.book-launch-cta-container a {
+  padding: 14px 30px;
+  border: 2px solid #5ef2f2;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.book-launch-cta-container a:hover {
+  color: #000000;
+  background-color: #5ef2f2;
+}

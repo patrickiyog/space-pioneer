@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:400,500,600,700&display=swap');
+body {
+  font-family: 'Inter';
+}
+
+main {
+  grid-column: 1 / 13;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.careers-main-image {
+  height: 100%;
+  width: 100vw;
+}
+
+.careers-main-text {
+  position: absolute;
+  top: 0;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin: 0 auto;
+}
+
+.careers-main-text h2 {
+  font-weight: 700;
+  margin: 12% 0 0 5%;
+  grid-column: 2 / 12;
+  font-size: 2em;
+  color: #5ef2f2;
+}
+
+.careers-main-text p {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  color: #ffffff;
+  grid-column: 2 / 12;
+  grid-row: 2 / 4;
+  margin-left: 5%;
+  margin-bottom: 0;
+}
+
+section {
+  grid-column: 1 / 13;
+  margin: 50px auto;
+  /* Grid Parent Properties */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+}
+
+.job-posting {
+  position: relative;
+  font-family: 'Inter';
+  background-color: #141414;
+  border: 2px solid #5ef2f2;
+  border-radius: 8px;
+  height: 300px;
+  width: 300px;
+}
+
+.job-posting:hover {
+  background-color: #262626;
+}
+
+.job-posting h2 {
+  margin: 0 37px;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.job-posting hr {
+  border: 0.5px solid #5ef2f2;
+  width: 75%;
+}
+
+.job-posting p {
+  margin: 0 37px;
+  font-size: 12px;
+  color: #cccccc;
+}
+
+.job-posting-title-hr-location-container {
+  margin-top: 30%;
+}
+
+.job-posting .more-info {
+  margin: 10px 0;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  font-size: 10px;
+  color: #cccccc;
+}
